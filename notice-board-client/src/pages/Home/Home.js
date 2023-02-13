@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
 import PostComponent from '../../components/PostComponent'
+import { Link } from "react-router-dom"
 
 function Home() {
     return (
@@ -52,27 +53,26 @@ function Home() {
                         </div>
                     </div>
                     <div className='col-lg-3'>
-                        <div class="card mt-4">
-                            <div class="card-header">
+                        <div className="card mt-4">
+                            <div className="card-header">
                                 Top Profiles
                             </div>
-                            <div class="card-body">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><a className='pointer'>An item</a></li>
-                                    <li class="list-group-item"><a className='pointer'>An item</a></li>
-                                    <li class="list-group-item"><a className='pointer'>An item</a></li>
-                                    <li class="list-group-item"><a className='pointer'>An item</a></li>
-                                    <li class="list-group-item"><a className='pointer'>An item</a></li>
-                                    <li class="list-group-item"><a className='pointer'>An item</a></li>
-                                    <li class="list-group-item"><a className='pointer'>An item</a></li>
+                            <div className="card-body">
+                                <ul className="list-group list-group-flush">
+                                    <li className="list-group-item"><Link className='pointer'>An item</Link></li>
+                                    <li className="list-group-item"><Link className='pointer'>An item</Link></li>
+                                    <li className="list-group-item"><Link className='pointer'>An item</Link></li>
+                                    <li className="list-group-item"><Link className='pointer'>An item</Link></li>
+                                    <li className="list-group-item"><Link className='pointer'>An item</Link></li>
+                                    <li className="list-group-item"><Link className='pointer'>An item</Link></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card mt-5 bg-light">
-                <div class="card-body">
+            <div className="card mt-5 bg-light">
+                <div className="card-body">
                     <p className='m-0 text-center'>Public Profile</p>
                 </div>
             </div>

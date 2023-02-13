@@ -3,8 +3,8 @@ import React from 'react'
 function PostComponent() {
     return (
         <>
-            <div class="card">
-                <div class="card-body">
+            <div className="card">
+                <div className="card-body">
                     <p className='text-dark m-0'>Posted 2 months ago</p>
                     <h5 className='pointer font-weight-bold'>Learn Counselling Courses from the Top Universities in Australia</h5>
                     <h6 className='text-dark'>is the most popular sector around
